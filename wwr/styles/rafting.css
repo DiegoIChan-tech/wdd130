@@ -6,7 +6,7 @@
 /* CSS Variables */
 :root {
   --primary-color: #00014d;   /* deep teal */
-  --accent1-color: #352104;   /* vibrant orange */
+  --accent1-color: #0f309e;   /* vibrant orange */
   --accent2-color: #ffffff;   /* white */
   --heading-font: 'Georgia', serif;
   --body-font: 'Arial', sans-serif;
@@ -27,7 +27,7 @@ header {
     align-items: center; /* Vertically center logo and nav */
     padding: 10px 20px;
     
-    background-color: #396e94; /* color */
+    background-color: #0a4066; /* color */
     border-bottom: 1px solid #c2c4c7; 
 }
 
@@ -57,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #a43a41; /* hover color */
+    background-color: #3c09f3; /* hover color */
 }
 
 /* Body */
@@ -89,16 +89,6 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color: var(--primary-color);
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: var(--accent1-color);
 }
 
 /* Hero Section */
@@ -154,7 +144,7 @@ nav a:hover {
 }
 
 .history-section h2 {
-    color: #396e94; /* heading color */
+    color: #073d64; /* heading color */
 }
 
 .history-content {
@@ -202,7 +192,7 @@ nav a:hover {
 figcaption {
     font-style: italic;
     padding: 8px 0;
-    color: #396e94;
+    color: #063f68;
 }
 
 /* --- Footer Styling (Flex) --- */
@@ -211,7 +201,7 @@ footer {
     justify-content: space-around; 
     align-items: center;
     padding: 25px 50px;
-    background-color: #396e94; /* Example color */
+    background-color: #063a5f; /* color */
     color: white;
 }
 
@@ -235,12 +225,6 @@ footer a {
 }
 
 /* Footer */
-footer {
-  text-align: center;
-  padding: 16px;
-  background-color: var(--primary-color);
-  color: var(--accent2-color);
-}
 
 footer p {
   margin-bottom: 12px;
