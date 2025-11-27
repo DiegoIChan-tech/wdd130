@@ -5,9 +5,9 @@
 
 /* CSS Variables */
 :root {
-  --primary-color: #00014d;   /* deep teal */
-  --accent1-color: #0f309e;   /* vibrant orange */
-  --accent2-color: #ffffff;   /* white */
+  --primary-color: #00014d;   
+  --accent1-color: #0f309e;   
+  --accent2-color: #ffffff;   
   --heading-font: 'Georgia', serif;
   --body-font: 'Arial', sans-serif;
 }
@@ -17,7 +17,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+  }
 
 /* --- Header Layout (Grid) --- */
 header {
@@ -192,7 +192,7 @@ nav ul {
 figcaption {
     font-style: italic;
     padding: 8px 0;
-    color: #063f68;
+    color: #79bff1;
 }
 
 /* --- Footer Styling (Flex) --- */
@@ -201,7 +201,7 @@ footer {
     justify-content: space-around; 
     align-items: center;
     padding: 25px 50px;
-    background-color: #063a5f; /* color */
+    background-color: #71afdb; /* color */
     color: white;
 }
 
