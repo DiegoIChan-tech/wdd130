@@ -221,32 +221,35 @@
 /* Employee Section */
 .employees {
   display: flex;
-  justify-content: space-between;
   gap: 20px;
-  margin: 20px 0;
-  padding: 16px;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  justify-content: space-between;
+  flex-wrap: wrap; /* IMPORTANT */
 }
 
-.employees figure {
+.employees h2 {
+  flex-basis: 100%;   /* Forces the heading to take the whole row */
   text-align: center;
-  flex: 1;
+  margin-bottom: 20px;
 }
 
-.employees img {
-  width: 150px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-}
 
-.employees figcaption {
-  margin-top: 8px;
-  font-weight: bold;
-  color: var(--primary-color);
-}
+    .employees figure {
+      text-align: center;
+      flex: 1;
+    }
+
+    .employees img {
+      width: 150px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    }
+
+    .employees figcaption {
+      margin-top: 8px;
+      font-weight: bold;
+      color: var(--primary-color);
+    }
 
 /* Contact Form Section */
 .contact-form {
@@ -316,6 +319,32 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
   background-color: var(--accent1-color);
 }
+
+/* Wrapper for Contact Info + Form */
+.contact-wrapper {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+/* Make both columns equal width */
+.contact-info,
+.contact-form {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Map styling */
+.map iframe {
+  width: 100%;
+  height: 250px;
+  border: none;
+  border-radius: 8px;
+}
+
 
     /* --- Footer Styling (Flex) --- */
     footer {
