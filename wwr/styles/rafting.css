@@ -13,7 +13,7 @@
 }
 
 .home-hero {
-  position: relative;
+  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -23,15 +23,12 @@
 }
 
 .home-hero .hero-text {
-  position: absolute;
-  top: 20%;
-  left: 10%;
-  max-width: 40%;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #ffffff;
-  padding: 16px;
-  border-radius: 8px;
+  position: static; /* removes overlay behavior */
+  background: none; /* removes dark box */
+  color: var(--primary-color);
+  padding: 20px 0;
 }
+
 
 .home-hero .hero-text h1 {
   margin-bottom: 8px;
